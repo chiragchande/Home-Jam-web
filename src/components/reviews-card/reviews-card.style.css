@@ -1,0 +1,65 @@
+.rev img{
+    height: 6vh;
+    width: 3vw;
+    float: left;
+    margin: 4%;
+}
+.rev{
+    height: 20vh;
+    width: 50vh;
+    min-height: 200px;
+    min-width: 200px;
+    border: 10px solid;
+    border-radius: 8px;
+    border-left: 0;
+    border-bottom: 0;
+    border-image: linear-gradient(to right, #276C73,  #5293E8);
+    display: inline-block;
+    border-image-slice: 1;
+    margin-top: 10%;
+    margin-right: 6%;
+    font-family: 'Quattrocento';
+    cursor: pointer;
+}
+
+.rev span{
+    padding: 25%;
+    margin-right: 5%;
+    color: #E5C558;
+    font-size: 1vw;
+
+}
+
+.rev p{
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 0.99vw;
+    padding: 5%;
+}
+
+.rev::-webkit-scrollbar {
+    display: none;
+}
+
+.rev h1{
+    font-size: 1.8vw;
+    float: left;
+    color: whitesmoke;
+    margin: 3%;
+    position: relative;
+}
+
+.rev .countryimg{
+    width: 2vh;
+    margin-top: -38%;
+    margin-left: 37%;
+    height: 2vh;
+}
+
+
+@media screen and (max-width: 730px){
+    .rev img{
+        height: 7vh;
+        width: 7vw;
+    }
+}

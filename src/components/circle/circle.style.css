@@ -1,0 +1,53 @@
+h1{
+    color: aqua;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+}
+
+.box{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    padding: 38% 0px 0px 20%;
+}
+
+.circle p{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+}
+
+
+.circle .icons{
+    width: 3vh;
+    margin-top: 3%;
+    margin-left: -2%;
+    position: relative;
+}
+
+.circle .star{
+    width: 2vh;
+    margin-top: 8%;
+    margin-left: -6%;
+    position: relative;
+}
+
+
+.circle{
+    height: 20vh;
+    width: 20vh;
+    min-height: 200px;
+    min-width: 200px;
+    border: 1px solid white;
+    border-radius: 100%;
+    opacity: 50%;
+    margin-top: 10%;
+    margin-right: 6%;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}

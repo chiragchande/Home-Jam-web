@@ -1,0 +1,33 @@
+.another{
+    margin-right: 3%;
+    border-radius: 8px;
+    border-top: 10px solid #234C97;
+    border-right: 10px solid #234C97;
+    border-right-style: groove;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 4vh;
+    position: relative;
+    margin-right: 30%;
+    margin-top: 18%;
+}
+
+.another .arrow{
+    color: #0259EB;
+    width: 22vh;
+    margin-top: 17%;
+    font-size: 2vw;
+}
+
+.tickit{
+    width: 5vh;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 34%;
+}
+
+.tickit:hover{
+    background-color: violet;
+}

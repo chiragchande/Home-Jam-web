@@ -1,0 +1,46 @@
+.containt {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 0%, #0A0B1A 0%); 
+}
+
+.cards{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.texts{
+    padding-top: 17%;
+}
+
+.texts p{
+    position: absolute;
+    margin-left: 7%;
+    color: #fff;
+    font-family: 'Libre Baskerville';
+    font-size: 2vw;
+    font-weight: normal;
+    line-height: 30px;
+    border-bottom: 10px solid #0259EB;
+    border-width: unset;
+    text-align: left;
+    width: 15%;
+}
+
+.texts span{
+    display: flex;
+    margin-right: 7%;
+    float: right;
+    font-family: 'Nunito';
+    font-size: 100%;
+    font-weight: normal;
+    color: #E5C558;
+    cursor: pointer;
+}

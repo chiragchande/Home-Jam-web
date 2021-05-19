@@ -1,0 +1,85 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options{
+    width: 80%;
+    height: 100%; 
+    background: none;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;    
+  }
+
+  .options li{
+      color: black;
+  }
+  .option {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: black;
+  }
+
+  
+
+  .logo{
+      width: 10%;
+  }
+
+  .img {
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100% ;
+    background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 0%, #0A0B1A 0%); 
+    
+}
+
+.bg{
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+}
+
+.content p{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: white;
+  position: relative;
+  left: 30%;
+}
+
+.content h1{
+  color: white;
+  margin-top: 30%;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vw;
+  left: 28%;
+}
+
+.logo-img{
+  margin-left: 50%;
+}
+
+.options i{
+  color: aliceblue;
+  margin-top: 1%;
+}
