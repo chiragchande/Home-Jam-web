@@ -36,7 +36,7 @@ class Circle extends React.Component{
                 
             </div>
             <Upcoming></Upcoming>
-            <Reviews></Reviews>
+            {/* <Reviews></Reviews> */}
             </>
         );
     }
